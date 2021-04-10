@@ -31,6 +31,7 @@ Time spent: 8 hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
+  <img src="XSS_youtube_url_embeds.gif" alt="XSS_youtube_url_embeds.gif">
   - [ ] Steps to recreate: 
     * Signed in as administrator
     * Created a new post named youtube_embed
@@ -48,6 +49,7 @@ Time spent: 8 hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
+  <img src="stored_xss.gif" alt="stored_xss.gif">
   - [ ] Steps to recreate: 
     * Signed in as administrator
     * Created a new post named links
