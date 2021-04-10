@@ -47,7 +47,7 @@ Time spent: 8 hours spent in total
   - [ ] Steps to recreate: 
     * Signed in as administrator
     * Created a new post named links
-    * Put a following code :
+    * Put a following HTML and javascript code :
     ``` 
     <a href="[caption code=">]</a><a title="onload=alert('XSS attack')"> It is just a link </a>
     ```
