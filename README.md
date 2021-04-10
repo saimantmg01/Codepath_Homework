@@ -20,7 +20,9 @@ Time spent: 8 hours spent in total
     <IFRAME SRC="javascript:alert('XSS');"></IFRAME>
     ```
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Ripstech](https://blog.ripstech.com/2019/wordpress-csrf-to-rce/)
+    - [Github](https://github.com/WordPress/WordPress/commit/0292de60ec78c5a44956765189403654fe4d080b)
+    - [wpscan](https://wpscan.com/vulnerability/d150f43f-6030-4191-98b8-20ae05585936)
     
 ### 2. WordPress  4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [ ] Summary: 
@@ -36,7 +38,8 @@ Time spent: 8 hours spent in total
     [embed src='https://www.youtube.com/embed/34567\x3csvg onload=alert('XSS')\x3e'][/embed]
     ```
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Sucuri](https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html)
+    - [wpscan](https://wpscan.com/vulnerability/3ee54fc3-f4b4-4c35-8285-9d6719acecf0)
     
 ### 3. WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
@@ -52,7 +55,8 @@ Time spent: 8 hours spent in total
     <a href="[caption code=">]</a><a title="onload=alert('XSS attack')"> It is just a link </a>
     ```
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Klikki](https://klikki.fi/adv/wordpress3.html)
+    - [wp-scan](https://wpscan.com/vulnerability/0f027d7d-674b-4a63-9603-25ea68069c1d)
     
 ### 4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
