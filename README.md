@@ -12,6 +12,7 @@ Time spent: 8 hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.23
   - [ ] GIF Walkthrough: 
+  <img src="/saimantmg01/Codepath_Homework/blob/WordPress-vs.-Kali/XSS_through_comments.gif?raw=true" alt="XSS_through_comments.gif">
   - [ ] Steps to recreate: 
     * Sign in as a user or administrator.
     * Click reply to the post.
