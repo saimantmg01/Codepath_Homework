@@ -50,7 +50,7 @@ Time spent: 8 hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
-   <img src="stored_xss.gif" alt="stored_xss.gif">
+    <img src="stored_xss.gif" alt="stored_xss.gif">
   - [ ] Steps to recreate: 
     * Signed in as administrator
     * Created a new post named links
