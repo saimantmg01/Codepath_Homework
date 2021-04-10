@@ -6,13 +6,17 @@ Time spent: 8 hours spent in total
 
 ## Pentesting Report
 
-### 1. (Required) Vulnerability Name or ID
+### 1. WordPress 3.9-5.1 - Comment Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.23
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
+        ->Sign in as a user or administrator.
+        ->Click reply to the post.
+        ->In comment input a basic malicious XSS code using iframe. 
+        ```<IFRAME SRC="javascript:alert('XSS');"></IFRAME>```
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 ### 2. (Required) Vulnerability Name or ID
