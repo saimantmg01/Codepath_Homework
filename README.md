@@ -58,7 +58,7 @@ Description: In red version of Globitek website, Insecure Direct Object Referenc
 
 Vulnerability #2: Cross-Site Request Forgery
 
-Description: In red version of Globitek website, Insecure Direct Object Reference is one of two vulnerabilities. Using repeater in burf, one can change the contents of user database without valid csrf token.
+Description: In red version of Globitek website, Insecure Direct Object Reference is one of two vulnerabilities. Using repeater in burp, one can change the contents of user database without valid csrf token.
 
 <img src="red-vuln2.gif">
 
