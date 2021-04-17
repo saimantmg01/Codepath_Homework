@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: 15 hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -17,13 +17,13 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQL Injection
 
 Description:
 
 <img src="blue-vuln1.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Session Hijacking/Fixation
 
 Description:
 
@@ -31,13 +31,13 @@ Description:
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Username Enumeration
 
 Description:
 
 <img src="green-vuln1.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Scripting
 
 Description:
 
@@ -46,13 +46,13 @@ Description:
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference
 
 Description:
 
 <img src="red-vuln1.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Request Forgery
 
 Description:
 
