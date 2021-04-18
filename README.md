@@ -25,7 +25,7 @@ Description: In blue version of Globitek website, sqli can be performed because 
 
 Vulnerability #2: Session Hijacking/Fixation
 
-Description: In blue version of Globitek website, session hijacking and fixation can be performed because it doesnot regenerate session ID which other two version does. Using a different browser, google chrome(target) to login and using the session id tool to view current session and opening same blue version of website which is not logged in firefox (attacker). Using session id from google chrome and change session id of firefox browser allowed to log in through session hijacking. 
+Description: In blue version of Globitek website, session hijacking and fixation can be performed because it doesnot regenerate session ID which other two version does. Using a different browser, google chrome(target) to login and using the session id tool to view current session and opening same blue version of website which is not logged in another brwoser: firefox (attacker). Using session id from google chrome and changing session id of firefox browser allowed to log in through session hijacking. 
 
 <img src="blue-vuln2.gif">
 
@@ -33,13 +33,13 @@ Description: In blue version of Globitek website, session hijacking and fixation
 
 Vulnerability #1: Username Enumeration
 
-Description: In green version of Globitek website, username enumeration is one of two vulnerabilities. While using random username and password in login page, it resulted into error which says, "Log in was unsuccessful" when it doesnot exist. But, while existing username as "jmonroe99" and "pperson" with random password in login page. It gave the bold form of "Log in was unsuccessful". Giving way to figure out valid username.
+Description: In green version of Globitek website, username enumeration is one of two vulnerabilities. While using random username and password in login page, it resulted into error which says, "Log in was unsuccessful" when such credentials doesnot exist. But, while existing username as "jmonroe99" and "pperson" with random password in login page is inserted. It gave the bold form of "Log in was unsuccessful". Giving way to figure out valid username.
 
 <img src="green-vuln1.gif">
 
 Vulnerability #2: Cross-Site Scripting
 
-Description: In green version of Globitek website, Cross Site Scripting is one of two vulnerabilities. Contact page of green version of website can be used to insert malicious code on feedback input which when viewed by user or admin will result into message pop-up in this case.
+Description: In green version of Globitek website, Cross Site Scripting is one of the two vulnerabilities. Contact page of green version of website can be used to insert malicious code on feedback input which when viewed by user or admin will result into message pop-up in this case.
 Malicious code in this case:
 ```
 <script>alert("Saiman found the XSS")</script>())))
